@@ -1,21 +1,16 @@
-
-
 import React from 'react';
 import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
   useColorScheme,
-  View,
 } from 'react-native';
-import CategoriesContainer from './src/Containers/CategoriesContainer';
-import HomeScreen from './src/Screens/Home/homeScreen';
+import TabNavigator from './src/Components/TabNavigator';
+import { NavigationContainer } from '@react-navigation/native';
+
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
   return (
-    <HomeScreen/>
+    <NavigationContainer>
+      <TabNavigator/>
+    </NavigationContainer>
   )
 }
 

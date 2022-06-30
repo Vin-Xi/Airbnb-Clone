@@ -16,6 +16,7 @@ const Stars: React.FC<{rating: number}> = ({rating}) => {
     for (let i = 0; i < 5; i++) {
       starElements.push(
         <Icon
+          key={`stars-${i}`}
           name="star"
           style={styles.stars}
           color={rating > i ? color.enabled : color.disabled} // Color all stars if rating > i

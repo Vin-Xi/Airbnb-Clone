@@ -21,6 +21,7 @@ const styles = StyleSheet.create({
     container:{
       margin:5,
       padding:4,
+
       ...boxShadow
     },  
     widget:{
@@ -31,7 +32,10 @@ const styles = StyleSheet.create({
         flexGrow:1,
         height:undefined,
         width:undefined
-      }
+      },
+    text:{
+      fontWeight:'bold'
+    }
   });
 
   export default styles

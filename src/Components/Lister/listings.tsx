@@ -30,8 +30,10 @@ const Lister:React.FC<{listing:IListing}> = ({listing}) =>{
                     style={styles.image}
                     resizeMode={'cover'}
                 />
-                <Text>{listing.type}</Text>
-                <Text>{listing.title}</Text>
+
+                <Text style={styles.text}>{listing.type}</Text>
+                <Text style={styles.text}>{listing.title}</Text>
+
                 <Text>{listing.price}$ {listing.priceType}</Text>
                 <Stars rating={listing.stars}/>
             </TouchableOpacity>
