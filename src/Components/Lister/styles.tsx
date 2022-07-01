@@ -30,6 +30,8 @@ const styles = StyleSheet.create({
     },
     image:{ 
         flexGrow:1,
+        flex:1,
+        alignItems:'center',
         height:undefined,
         width:undefined
       },

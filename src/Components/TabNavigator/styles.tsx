@@ -13,6 +13,7 @@ export const screenOptions={
     },
 
     tabBarActiveTintColor:'red',
+    
 }
 export const homeScreenOptions={
     tabBarLabel:"Explore",
