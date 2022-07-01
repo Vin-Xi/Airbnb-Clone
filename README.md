@@ -1,8 +1,4 @@
-# Airbnb-Clone
-A clone made in Airbnb 
-
-## A Native App 
-Built using Typescript 
+# Native Airbnb Clone 
 
 ### Frameworks and Libraries used
 <ol>
